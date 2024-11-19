@@ -1,0 +1,6 @@
+CustomerID,Name,Age,Gender,PlanType,MonthlyCharges,UsageMinutes,DataUsedGB,Churn,Region
+101,Alice Smith,25,Female,Basic,25.5,450,2.5,No,East
+102,Bob Johnson,34,Male,Premium,75,1200,10,Yes,West
+103,Charlie Brown,45,Male,Family,120,2000,15,No,South
+104,Diana Prince,29,Female,Unlimited,90,800,8,No,North
+105,Evan White,38,Male,Basic,30,400,3,Yes,East
