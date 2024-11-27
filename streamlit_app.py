@@ -59,7 +59,7 @@ ax.legend()
 st.pyplot(fig)
 
 st.header("Query the Database")
-query = st.text_input("Enter an SQL query:", "SELECT * FROM CustomerID LIMIT 5;")
+query = st.text_input("Enter an SQL query:", "SELECT * FROM telecommunications_data LIMIT 5;")
 if st.button("Run Query"):
     results = pd.read_sql(query, conn)
     st.write("Query Results:")
